@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6839504345308381993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6839504345308381998}
+  - component: {fileID: 6839504345308381999}
+  - component: {fileID: 5167716284325659180}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6839504345308381998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6839504345308381993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.5299997, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6839504345308381999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6839504345308381993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54acc6a86c8e93e44bd67f4e79a42429, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BottomPlane: {fileID: 5765867257336547640, guid: ebb3aeb5609d87646a20094ec4ab9cac,
+    type: 3}
+  faceA: {fileID: 8131260177670587217, guid: 27904115ff655424ebf427d0c100d2c9, type: 3}
+  faceB: {fileID: 5924087693216423833, guid: 090de953df9acba4f8d029db027d2446, type: 3}
+  faceC: {fileID: 5924087693216423833, guid: 91971afaa10d67341a4c17359459dcaa, type: 3}
+  faceD: {fileID: 5924087693216423833, guid: 0ad953eb38dc99c4a96f147dbb6c4266, type: 3}
+  Xsize: 7
+  Ysize: 10
+  Zsize: 7
+  GridSpace: 1.05
+  gridOrigin: {x: 0, y: 0, z: 0}
+  gridWallA: {x: 0, y: 0.5, z: 6.85}
+  gridWallB: {x: 6.85, y: 0.5, z: 0}
+  gridWallC: {x: -0.55, y: 0.5, z: 0}
+  gridWallD: {x: 0, y: 0.5, z: -0.55}
+  floorPerent: {fileID: 0}
+  wallPerent:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &5167716284325659180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6839504345308381993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c01eaa1767def44901ecb86d6cd510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blocks:
+  - {fileID: 6576261413922161368, guid: 3c4bf59fbf3b912418df60e4eca4b6c1, type: 3}
+  - {fileID: 2678010346543483863, guid: f2e46602440fcd142adcb9259d821694, type: 3}
+  - {fileID: 1305860652591755312, guid: 4620f4637569b364a9cd5b7ef373a604, type: 3}
+  - {fileID: 3809179034351330856, guid: a70ac814926e7d54ca4b04ee6ee318d3, type: 3}
+  - {fileID: 7582844790060408969, guid: a71982caf534f2b48816b5487871d1e0, type: 3}
+  shadows:
+  - {fileID: 6576261413922161368, guid: 2d7308c0b994087438b66c458981c43e, type: 3}
+  - {fileID: 2678010346543483863, guid: 88657c38da0b0f047b73ef16614200a4, type: 3}
+  - {fileID: 1305860652591755312, guid: 2b25d37efcdb132439583f06e6f6f946, type: 3}
+  - {fileID: 3809179034351330856, guid: aa33f1f3593952e4b80419af20be7e88, type: 3}
+  - {fileID: 7582844790060408969, guid: 572a76007da42eb4e9045543e5259b3e, type: 3}
+  spawnPos: {x: 0, y: 0, z: 0}
+  shadowPos: {x: 0, y: 0, z: 0}
